@@ -19,7 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func toVcA(_ sender: Any) {
+        let vc = AViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func goToAStraightToD(_ sender: Any) {
+        let vc = AViewController(goStraightToD: true)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
-

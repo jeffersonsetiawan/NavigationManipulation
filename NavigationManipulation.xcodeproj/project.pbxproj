@@ -12,6 +12,16 @@
 		E564CFA220E2711000DEC269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E564CFA020E2711000DEC269 /* Main.storyboard */; };
 		E564CFA420E2711200DEC269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E564CFA320E2711200DEC269 /* Assets.xcassets */; };
 		E564CFA720E2711200DEC269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E564CFA520E2711200DEC269 /* LaunchScreen.storyboard */; };
+		E564CFB020E2714100DEC269 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564CFAE20E2714100DEC269 /* AViewController.swift */; };
+		E564CFB120E2714100DEC269 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564CFAF20E2714100DEC269 /* AViewController.xib */; };
+		E564CFB420E2719800DEC269 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564CFB220E2719800DEC269 /* BViewController.swift */; };
+		E564CFB520E2719800DEC269 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564CFB320E2719800DEC269 /* BViewController.xib */; };
+		E564CFB820E271E400DEC269 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564CFB620E271E400DEC269 /* CViewController.swift */; };
+		E564CFB920E271E400DEC269 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564CFB720E271E400DEC269 /* CViewController.xib */; };
+		E564CFBC20E279C800DEC269 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564CFBA20E279C800DEC269 /* DViewController.swift */; };
+		E564CFBD20E279C800DEC269 /* DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564CFBB20E279C800DEC269 /* DViewController.xib */; };
+		E5800A6220E5E0050030A2FE /* EViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5800A6020E5E0050030A2FE /* EViewController.swift */; };
+		E5800A6320E5E0050030A2FE /* EViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5800A6120E5E0050030A2FE /* EViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		E564CFA320E2711200DEC269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E564CFA620E2711200DEC269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E564CFA820E2711200DEC269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E564CFAE20E2714100DEC269 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		E564CFAF20E2714100DEC269 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		E564CFB220E2719800DEC269 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		E564CFB320E2719800DEC269 /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		E564CFB620E271E400DEC269 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		E564CFB720E271E400DEC269 /* CViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CViewController.xib; sourceTree = "<group>"; };
+		E564CFBA20E279C800DEC269 /* DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		E564CFBB20E279C800DEC269 /* DViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DViewController.xib; sourceTree = "<group>"; };
+		E5800A6020E5E0050030A2FE /* EViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViewController.swift; sourceTree = "<group>"; };
+		E5800A6120E5E0050030A2FE /* EViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,16 @@
 				E564CFA320E2711200DEC269 /* Assets.xcassets */,
 				E564CFA520E2711200DEC269 /* LaunchScreen.storyboard */,
 				E564CFA820E2711200DEC269 /* Info.plist */,
+				E564CFAE20E2714100DEC269 /* AViewController.swift */,
+				E564CFAF20E2714100DEC269 /* AViewController.xib */,
+				E564CFB220E2719800DEC269 /* BViewController.swift */,
+				E564CFB320E2719800DEC269 /* BViewController.xib */,
+				E564CFB620E271E400DEC269 /* CViewController.swift */,
+				E564CFB720E271E400DEC269 /* CViewController.xib */,
+				E564CFBA20E279C800DEC269 /* DViewController.swift */,
+				E564CFBB20E279C800DEC269 /* DViewController.xib */,
+				E5800A6020E5E0050030A2FE /* EViewController.swift */,
+				E5800A6120E5E0050030A2FE /* EViewController.xib */,
 			);
 			path = NavigationManipulation;
 			sourceTree = "<group>";
@@ -122,6 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5800A6320E5E0050030A2FE /* EViewController.xib in Resources */,
+				E564CFB920E271E400DEC269 /* CViewController.xib in Resources */,
+				E564CFBD20E279C800DEC269 /* DViewController.xib in Resources */,
+				E564CFB520E2719800DEC269 /* BViewController.xib in Resources */,
+				E564CFB120E2714100DEC269 /* AViewController.xib in Resources */,
 				E564CFA720E2711200DEC269 /* LaunchScreen.storyboard in Resources */,
 				E564CFA420E2711200DEC269 /* Assets.xcassets in Resources */,
 				E564CFA220E2711000DEC269 /* Main.storyboard in Resources */,
@@ -136,7 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E564CF9F20E2711000DEC269 /* ViewController.swift in Sources */,
+				E564CFBC20E279C800DEC269 /* DViewController.swift in Sources */,
+				E564CFB420E2719800DEC269 /* BViewController.swift in Sources */,
+				E564CFB820E271E400DEC269 /* CViewController.swift in Sources */,
+				E564CFB020E2714100DEC269 /* AViewController.swift in Sources */,
 				E564CF9D20E2711000DEC269 /* AppDelegate.swift in Sources */,
+				E5800A6220E5E0050030A2FE /* EViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
